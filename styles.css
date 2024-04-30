@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo suave */
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #e0e0e0; /* Color de fondo de la tarjeta */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .card-header {
+    padding: 10px;
+    background-color: #ffd699; /* Color de fondo del encabezado */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-header h3 {
+    margin: 0;
+    color: #333; /* Color del texto del encabezado */
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-body p {
+    margin: 5px 0;
+    color: #666; /* Color del texto del cuerpo */
+  }
+  
+  .card-footer {
+    padding: 10px;
+    background-color: #b3e0ff; /* Color de fondo del pie de tarjeta */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
